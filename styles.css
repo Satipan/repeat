@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto+Condensed & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto+Condensed&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #cecece;
+    color: #0f141e;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.shap{
+    position: fixed;
+    left: 0;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    background: #457b8a;
+    width: 100%;
+    display: flex;
+    box-shadow: 4px 4px 14px #0f141e;
+    
+}
+
+.znach{
+    margin-left: 2.5%;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 50%;
+    box-shadow: 4px 4px 14px #0f141e;
+}
+
+.text-shap{
+    display: block;
+    margin-left: 2.5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 0;
+}
+
+.text-shap1{
+    font-family: 'Lobster', cursive;
+    font-size: 350%;
+    
+}
+.text-shap2{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 170%;
+}
+.con1{
+width: 90%;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+margin-top: 13%;
+margin-bottom: 3%;
+font-size: 170%;
+border: 1px solid red;
+}
+.con2{
+display: flex;
+width: 90%; 
+margin-left: auto;
+margin-right: auto;
+margin-top: 3%;
+margin-bottom: 3%;
+text-align: center;
+font-size: 130%;
+border: 1px solid red; 
+}
+ul{
+    list-style-type: none;
+}
+li {
+    line-height: 2.3; /* Межстрочное расстояние */
+   }
+
+.con21{
+width: 50%;
+margin-right: 2.5%; 
+border: 3px solid #457b8a;
+border-radius: 7px;
+}
+.con22{
+width: 50%;
+margin-left: 2.5%;
+border: 3px solid #457b8a;
+border-radius: 7px;
+}
+
+.zn2{
+    margin-top: 3%;
+}
+
+.list{
+border: 1px solid red;
+}
+
+
+.con3{
+width: 90%;
+margin-left: auto;
+margin-right: auto;
+margin-top: 3%;
+margin-bottom: 3%;
+text-indent: 4%;
+line-height: 2.3;  
+font-size: 140%;
+border: 1px solid red;
+}
+.con4{
+margin-left: auto;
+margin-right: auto;
+margin-top: 3%;
+margin-bottom: 3%;
+border: 1px solid red;
+width: 90%;
+text-align: center;
+}
+
+
+.but{
+    background: #335d69;
+    padding: 15px 20px;
+    color: #0f141e;
+    border: none;
+    font-size: 120%;
+    font-family: 'Lobster', cursive;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+.but:hover{
+    opacity: 0.9;
+}
+
+.text-footer{
+    background-color: #335d69;
+    font-family: inherit;
+    font-size: 100%;
+    font-weight: bold;
+    color: #0f141e;
+    width: 100%;
+    display: flex;
+    padding: 1% 0;
+    
+}
+
+.text-footer1{
+    width: 50%;
+    text-align: left;
+    margin-left: 5%;
+    
+} 
+
+.text-footer2{
+    width: 50%;
+    text-align: right;
+    margin-right: 5%;
+    
+} 
